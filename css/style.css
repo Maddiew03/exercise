@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    margin-top: 7em;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.image img {
+    width: 400px;
+    p
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.box {
+    position: relative;
+    margin-top: 2em;
+    height: 30px;
+    width: 60px;
+    cursor: pointer;
+
+
+}
+
+.box::after {
+    position: absolute;
+    content: "";
+    height: 35px;
+    width: 65px;
+}

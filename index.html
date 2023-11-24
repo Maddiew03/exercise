@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>exercise 3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="image">
+            <img id="imageid" src="images/Chloe.jpg" alt="start image">
+        </div>
+        <div class="buttons">
+            <button class="box" onclick="chloe()">Chloe</button>
+            <button class="box" onclick="princess()">Princess</button>
+            <button class="box" onclick="detective()">Detective</button>
+            <button class="box" onclick="angel()">Angel</button>
+            <button class="box" onclick="fairy()">Fairy</button>
+        </div>
+    </div>
+    <script>
+        var myImage = document.querySelector("#imageid");
+
+        function chloe() {
+            myImage.src = "images/Chloe.jpg";
+
+        }
+        function princess() {
+            myImage.src = "images/Princess.jpg";
+
+        }
+        function detective() {
+            myImage.src = "images/Detective.jpg";
+
+        }
+        function angel() {
+            myImage.src = "images/Angel.jpg";
+
+        }
+        function fairy() {
+            myImage.src = "images/Fairy.jpg";
+
+        }
+    </script>
+
+
+</body>
+
+</html>
