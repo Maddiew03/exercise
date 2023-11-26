@@ -18,6 +18,10 @@ body {
     grid-template-columns: 1fr;
 
 }
+.title {
+    background-color: aliceblue;
+    font-size: 40px;
+}
 
 .image img {
     width: 400px;
