@@ -30,6 +30,7 @@ body {
 }
 
 .box {
+    background-color:aliceblue;
     position: relative;
     margin-top: 2em;
     height: 30px;
